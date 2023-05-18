@@ -1,9 +1,5 @@
-s = set()
+r = range(10)
 
-s.add(1)
-s.add(2)
-s.add(2)
+r = list(r)
 
-s = list(s)
-
-print(s)
+print(r)
