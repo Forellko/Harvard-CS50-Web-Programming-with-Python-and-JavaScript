@@ -1,5 +1,5 @@
-r = range(10)
+def func(x):
+    return x * x
 
-r = list(r)
 
-print(r)
+print(func(x=5))
