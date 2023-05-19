@@ -1,5 +1,13 @@
-def func(x):
-    return x * x
+def decorator(f):
+    def wrapper():
+        print('hello')
+        f()
+    return wrapper
 
 
-print(func(x=5))
+@decorator
+def func():
+    print('world')
+
+
+func()
