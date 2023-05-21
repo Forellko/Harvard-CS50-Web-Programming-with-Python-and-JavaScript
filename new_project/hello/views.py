@@ -11,3 +11,6 @@ def vova(request):
 
 def greet(request, name):
     return HttpResponse(name)
+
+def index(request):
+    return render(request, "hello/index.html")
