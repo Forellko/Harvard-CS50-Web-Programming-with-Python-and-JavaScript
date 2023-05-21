@@ -7,4 +7,7 @@ def index(request):
     return HttpResponse("Hello world")
 
 def vova(request):
-    return HttpResponse("Hello Vova")
+    return HttpResponse("Hello Vova!!!")
+
+def greet(request, name):
+    return HttpResponse(name)
